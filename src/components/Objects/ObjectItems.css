@@ -1,0 +1,11 @@
+.grid {
+  margin-top: 5rem;
+}
+p{
+  font-weight: normal;
+  font-size: 1rem;
+}
+.loading{
+  font-weight: bold;
+  font-size: 3rem
+}

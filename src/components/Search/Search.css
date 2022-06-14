@@ -1,0 +1,19 @@
+.search input {
+  background-color: var(--backgroundWhite);
+}
+.search label {
+  color: var(--text-primary);
+  margin-right: 1rem;
+}
+
+.search button {
+  color: var(--text-primary);
+  background-color: var(--backgroundWhite);
+  margin-left: 0.5rem;
+}
+.search button:hover {
+  color: #999;
+}
+.search button:active {
+  transform: translateY(4px);
+}

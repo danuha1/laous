@@ -1,0 +1,70 @@
+.margin {
+  margin-top: 10rem;
+  margin-bottom: 50rem;
+}
+.city label {
+  color: var(--text-primary);
+}
+.city .one {
+  margin-left: 4rem;
+}
+.city .two {
+  margin-left: 1.7rem;
+  width: 30%;
+}
+.city .description1 {
+  margin-left: 1.2rem;
+  width: 30%;
+}
+.city .description2 {
+  margin-left: 1.2rem;
+  width: 30%;
+}
+.city .nine {
+  margin-left: 3rem;
+}
+.city .ten {
+  margin-left: 5rem;
+}
+.city .eleven {
+  margin-left: 4.7rem;
+}
+.city .twelve {
+  margin-left: 3.7rem;
+}
+.city .three {
+  margin-left: 4.4rem;
+}
+.city .four {
+  margin-left: 3.4rem;
+}
+.city .five {
+  margin-left: 3.5rem;
+}
+.city .six {
+  margin-left: 4.4rem;
+}
+.city .seven {
+  margin-left: 3.9rem;
+}
+.city input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.city button {
+  width: 30%;
+  background: var(--backgroundWhite);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  color: var(--text-primary);
+  border: 2px solid var(--backgroundBlack);
+  padding: 14px 20px;
+  margin-bottom: 20rem;
+  margin-left: 6.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

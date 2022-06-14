@@ -1,0 +1,27 @@
+
+.hr {
+  width: 105rem;
+  display: flex;
+  flex: wrap;
+  margin-left: -1rem;
+}
+.tests {
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  color: var(--text-primary);
+}
+hr#one {
+  width: 50%;
+  height: 0;
+  margin-top: 5rem;
+  border: 4px solid rgba(153, 153, 153, 0.445);
+}
+hr#two {
+  width: 50%;
+  height: 0;
+  margin-top: 5rem;
+  border: 4px solid rgba(153, 153, 153, 0.445);
+}

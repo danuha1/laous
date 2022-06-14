@@ -1,0 +1,15 @@
+@import '~antd/dist/antd.css';
+
+.img{
+    height: 256px;
+}
+.ant-card-meta-title {
+    color: var(--text-primary);
+  }
+  .ant-card-meta-description {
+    color: var(--text-primary);
+  }
+ .ant-card{
+     background: var(--backgroundWhite);
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }

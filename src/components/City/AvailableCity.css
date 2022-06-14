@@ -1,0 +1,44 @@
+.Country {
+  animation: Country-appear 1s ease-out forwards;
+}
+
+.Country ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes Country-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ul {
+  display: grid;
+  grid-template-columns: 25rem 25rem 25rem 25rem;
+
+  grid-gap: 2.05rem;
+}
+.CountryLoading {
+  text-align: center;
+  color: black;
+}
+
+.CountryError {
+  text-align: center;
+  color: red;
+}
+.countryGrid {
+  margin-top: 2rem;
+  margin-left: -6rem;
+}
+.loading {
+  font-weight: bold;
+  font-size: 3rem;
+}

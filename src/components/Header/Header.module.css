@@ -1,0 +1,39 @@
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--backgroundWhite);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.26);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+  margin-bottom: 5rem;
+}
+
+header .navbar a {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+header .navbar a:hover {
+  color: #999;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  margin-top: -4rem;
+  transform: rotate(-5deg);
+}
+.navA {
+  color: var(--textPrimary);
+  font-size: 2rem;
+}
+.navA:hover {
+  color: #999;
+}

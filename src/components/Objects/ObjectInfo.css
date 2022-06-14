@@ -1,0 +1,36 @@
+.name {
+  margin: auto;
+  margin-left: 35rem;
+  width: 40rem;
+  font-size: 3rem;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+}
+.img1 {
+  float: left;
+  width: 600px;
+  height: 400px;
+  margin-right: 2rem;
+}
+.description1 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.text1 {
+  width: 103rem;
+}
+.img2 {
+  float: right;
+  width: 600px;
+  height: 400px;
+  margin-left: 2rem;
+}
+.description2 {
+  font-size: 1rem;
+}
+.text2 {
+  width: 103rem;
+}
+.map {
+  margin-top: 5rem;
+}

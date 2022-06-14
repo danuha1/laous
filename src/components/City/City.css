@@ -1,0 +1,19 @@
+button {
+  position: relative;
+}
+.hide {
+  display: none;
+}
+.visible {
+  margin-left: 7.5rem;
+}
+.grid {
+  margin-left: 2rem;
+}
+ul {
+  margin-left: 2.8rem;
+}
+.loading {
+  font-weight: bold;
+  font-size: 3rem;
+}
