@@ -3,8 +3,7 @@ import { Tabs } from "antd";
 import "./Admin.css";
 const { TabPane } = Tabs;
 
-const onChange = (key) => {
-};
+const onChange = (key) => {};
 const Admin = (props) => {
   const cityNameRef = useRef("");
   const objectNameRef = useRef("");
@@ -98,8 +97,9 @@ const Admin = (props) => {
                 ref={cityPictureRef}
               />
             </div>
-            <div><button>Add city</button></div>
-            
+            <div>
+              <button>Add city</button>
+            </div>
           </div>
         </form>
       </TabPane>

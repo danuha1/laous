@@ -29,12 +29,11 @@ const ObjectInfoItem = (props) => {
           dangerouslySetInnerHTML={{ __html: marked(props.description2) }}
         ></div>
       </div>
-      
       <div
         className="
       map"
       >
-    {/* Kartes komponente */}
+        {/* Kartes komponente */}
         <LoadScript googleMapsApiKey="AIzaSyBlNRA5ZHM0g_IyFNVElzkCoERzKFPHa_M">
           <GoogleMap
             mapContainerStyle={containerStyle}

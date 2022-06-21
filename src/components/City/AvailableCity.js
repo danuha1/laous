@@ -62,16 +62,13 @@ const AvailableCountry = (props) => {
     setFilteredSearch(selectedSearch);
   };
   const citiesFilter = cities.filter((cities) => {
-    return cities.name.includes(filteredSearch);
+    return cities.name.toLowerCase().includes(filteredSearch.toLowerCase());
   });
- 
- let cityList = (
-  <CityFilter
-  items={citiesFilter}
-  onCardChange={props.onCardChange}
-/>
- )
-  
+
+  let cityList = (
+    <CityFilter items={citiesFilter} onCardChange={props.onCardChange} />
+  );
+
   return (
     <div>
       <Name name={city} />
